@@ -1,0 +1,22 @@
+.navigation {
+  @media (max-width: 900px) {
+    display: none;
+  }
+
+  &__link {
+    padding: 5px 10px;
+    margin: 0 10px;
+    color: $color-dark;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: $font-secondary;
+    box-shadow: inset 0 0 0 0 $color-dark;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    &:hover {
+      color: white;
+      box-shadow: inset 200px 0 0 0 $color-dark;
+    }
+  }
+}
