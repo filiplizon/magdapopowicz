@@ -12,6 +12,7 @@ const Wrapper = () => {
       <div className="wrapper__content">
         <Hero />
         <About />
+        <Quote />
       </div>
     </div>
   );
