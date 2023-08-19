@@ -13,6 +13,7 @@ const Wrapper = () => {
         <Hero />
         <About />
         <Quote />
+        <BusinessStartGuide />
       </div>
     </div>
   );
