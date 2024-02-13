@@ -16,7 +16,6 @@
   &__wrapper {
     justify-content: center;
     align-items: center;
-
     display: flex;
 
     @media (min-width: 900px) {
@@ -33,7 +32,10 @@
 
       @media (min-width: 900px) {
         content: "";
-
+        background-image: url("../images/logo.png");
+        background-position: center;
+        background-size: cover;
+        opacity: 0.6;
         height: 100px;
         left: 12%;
         bottom: 50%;
@@ -50,7 +52,10 @@
 
       @media (min-width: 900px) {
         content: "";
-
+        background-image: url("../images/logo.png");
+        background-position: center;
+        background-size: cover;
+        opacity: 0.6;
         width: 100px;
         right: 12%;
         top: 50%;

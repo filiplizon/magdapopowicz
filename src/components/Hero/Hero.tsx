@@ -1,20 +1,19 @@
-import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import { FaTiktok, FaInstagram } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <section className="hero">
       <div className="hero__wrapper">
         <div className="hero__content">
           <h1 className="hero__heading">
-            Cześć, nazywam się <span>Magda Popowicz</span>.
+            Cześć, nazywam się <span>Magda Popowicz.</span>
           </h1>
           <h2>Chętnie pokaże Ci jak dodatkowo zarabiać online.</h2>
           <p className="hero__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            similique accusantium possimus officia obcaecati consectetur hic
-            saepe eius?
+            Jeśli chcesz wykorzystać możliwości dwudziestego pierwszego wieku,
+            stać się całkowicie niezależną osobą oraz zarabiać z każdego miejsca
+            na ziemi, <span>bardzo dobrze trafiłeś/aś</span>.
           </p>
           <div className="hero__links">
             <div className="hero__buttons">
@@ -35,7 +34,7 @@ const Hero = () => {
         <div className="hero__image"></div>
         <div className="hero__logo"></div>
       </div>
-    </div>
+    </section>
   );
 };
 

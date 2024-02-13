@@ -9,7 +9,6 @@ const Logo = () => {
       height={50}
       width={50}
       placeholder="blurred"
-      style={{ borderRadius: "8%" }}
     />
   );
 };
